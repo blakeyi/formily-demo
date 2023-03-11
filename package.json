@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service --open serve ",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@formily/core": "^2.2.20",
+    "@formily/element": "^2.2.20",
+    "@formily/vue": "^2.2.20",
+    "@vue/composition-api": "^1.7.1",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.13",
+    "sass": "^1.32.11",
+    "sass-loader": "^8.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
